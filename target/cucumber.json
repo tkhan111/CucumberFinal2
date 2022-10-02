@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2147168000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionfinal.beforeRun()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "user should be able to change background color to white",
+        "description": "",
+        "id": "setting-the-best-newest-background-color;user-should-be-able-to-change-background-color-to-white",
+        "after": [
+          {
+            "result": {
+              "duration": 16300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionfinal.closing()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 131634100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "validate White Background button is displayed;",
+            "match": {
+              "location": "StepDefinitionfinal.validate_White_Background_button_is_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57978500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the whitebackground button",
+            "match": {
+              "location": "StepDefinitionfinal.i_click_on_the_whitebackground_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37339500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the background color will change to white",
+            "match": {
+              "location": "StepDefinitionfinal.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "setting the best newest background color",
+    "description": "",
+    "id": "setting-the-best-newest-background-color",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/FeatureFile.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Scenario2"
+      }
+    ]
+  }
+]
